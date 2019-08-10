@@ -6,6 +6,12 @@ A load balancer sits between the client and the server farm accepting incoming n
 
 > Load balancing is the most straightforward method of scaling out an application server infrastructure. As application demand increases, new servers can be easily added to the resource pool, and the load balancer will immediately begin sending traffic to the new server.
 
+## Core load balancing capabilities include:
+
+1. **Layer 4 (L4) load balancing** - the ability to direct traffic based on data from network and transport layer protocols, such as IP address and TCP port
+2. **Layer 7 (L7) load balancing and content switching** – the ability to make routing decisions based on application layer data and attributes, such as HTTP header, uniform resource identifier, SSL session ID and HTML form data
+3. **Global server load balancing (GSLB)** - extends the core L4 and L7 capabilities so that they are applicable across geographically distributed server farms
+
 ## Types of Load Balancer : 
 
 1. **Hardware LoadBalancer** : 
